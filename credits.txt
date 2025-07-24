@@ -1,0 +1,10 @@
+raylib
+zlib
+https://github.com/raysan5/raylib
+
+raylib-go
+zlib
+https://github.com/gen2brain/raylib-go
+
+Game & Watch GB Palette
+https://lospec.com/palette-list/game-watch-gb

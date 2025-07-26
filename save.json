@@ -1,50 +1,50 @@
 {
-  "score": 592,
+  "score": 853,
   "cup_data": [
     {
-      "level": 3,
+      "level": 4,
       "fill_y": 529,
       "exp": 0
     },
     {
+      "level": 7,
+      "fill_y": 499,
+      "exp": 30
+    },
+    {
+      "level": 3,
+      "fill_y": 494,
+      "exp": 35
+    },
+    {
       "level": 6,
+      "fill_y": 494,
+      "exp": 35
+    },
+    {
+      "level": 3,
       "fill_y": 519,
       "exp": 10
     },
     {
-      "level": 3,
-      "fill_y": 514,
-      "exp": 15
+      "level": 5,
+      "fill_y": 509,
+      "exp": 20
     },
     {
-      "level": 6,
+      "level": 3,
       "fill_y": 519,
       "exp": 10
     },
     {
-      "level": 3,
+      "level": 6,
+      "fill_y": 509,
+      "exp": 20
+    },
+    {
+      "level": 4,
       "fill_y": 524,
       "exp": 5
-    },
-    {
-      "level": 5,
-      "fill_y": 529,
-      "exp": 0
-    },
-    {
-      "level": 2,
-      "fill_y": 504,
-      "exp": 25
-    },
-    {
-      "level": 5,
-      "fill_y": 529,
-      "exp": 0
-    },
-    {
-      "level": 3,
-      "fill_y": 504,
-      "exp": 25
     }
   ]
 }

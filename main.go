@@ -158,11 +158,11 @@ func Draw() {
 	// TODO: Find better way to hide top of cups
 	rl.DrawLine(6, 486, 654, 486, GB_3)
 
-	rl.DrawText(fmt.Sprintf("Score: %d", player_score), 42, 10, 36, GB_0)
-
 	for _, b := range balls {
 		b.Draw(&BALL_TEXTURE)
 	}
+
+	rl.DrawText(fmt.Sprintf("Score: %d", player_score), 42, 4, CUP_FONT_SIZE, GB_0)
 
 	for _, fb := range f_balls {
 		DrawSpriteInCell(BALL_TEXTURE, fb.Position.X, fb.Position.Y, GB_FADE)
@@ -247,7 +247,7 @@ func InitPegs() {
 
 		neededPegs := COLS_PER_ROW
 		if row%2 != 0 {
-			neededPegs++ // Odd rows need one extra peg
+			neededPegs++
 		}
 
 		// Loop through columns to place pegs

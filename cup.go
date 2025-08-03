@@ -31,7 +31,7 @@ func (c *Cup) Draw() {
 	rl.DrawRectangle(int32(c.Rect.X+2), int32(c.FillY), int32(c.FillWidth), int32(c.Exp), GB_1)
 
 	rl.DrawText(
-		fmt.Sprintf("%d", c.Level),
+		fmt.Sprintf("%02d", c.Level),
 		int32(c.TextPos.X),
 		int32(c.Rect.Y),
 		CUP_FONT_SIZE,
@@ -66,5 +66,7 @@ func (c *Cup) LevelUp() {
 }
 
 func (c *Cup) UpdateTextPos() {
-	c.TextPos.X = (int(c.Rect.X + (c.Rect.Width / 2) - float32(rl.MeasureText(fmt.Sprintf("%d", c.Level), CUP_FONT_SIZE))))
+	text := fmt.Sprintf("%02d", c.Level)
+	textWidth := float32(rl.MeasureText(text, CUP_FONT_SIZE))
+	c.TextPos.X = int(c.Rect.X + (c.Rect.Width / 2) - (textWidth / 2))
 }

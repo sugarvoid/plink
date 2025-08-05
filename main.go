@@ -333,7 +333,13 @@ func SaveGame() {
 func LoadGame() {
 	json_data, err := os.ReadFile(SAVE_FILE)
 	if err != nil {
-		panic(err)
+		if os.IsNotExist(err) {
+			SaveGame()
+			json_data, err = os.ReadFile(SAVE_FILE)
+			if err != nil {
+				panic(err)
+			}
+		}
 	}
 
 	var _save_data SaveData

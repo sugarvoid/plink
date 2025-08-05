@@ -12,7 +12,7 @@ windows() {
 
 linux() {
     go build -ldflags "-s -w" .
-    ./plink
+    ./gplink
 }
 
 case "$1" in

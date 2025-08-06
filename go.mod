@@ -1,4 +1,4 @@
-module gplink
+module plink
 
 go 1.23.4
 

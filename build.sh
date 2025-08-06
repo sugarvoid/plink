@@ -1,7 +1,7 @@
 
 clean() {
     if [ -f plink ]; then
-        rm gplink
+        rm plink
         echo "old build is removed"
     fi
 }
@@ -12,7 +12,7 @@ windows() {
 
 linux() {
     go build -ldflags "-s -w" .
-    ./gplink
+    ./plink
 }
 
 case "$1" in

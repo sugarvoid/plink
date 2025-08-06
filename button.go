@@ -21,9 +21,9 @@ type Button struct {
 	TextPosition rl.Vector2
 }
 
-func NewButton(text string, x, y int32, callback func(), col, hoverCol rl.Color) *Button {
-	w := int32(150)
-	h := int32(50)
+func NewButton(text string, w int32, h int32, x int32, y int32, callback func(), col, hoverCol rl.Color) *Button {
+	//w := int32(150)
+	//h := int32(50)
 	fontSize := float32(20)
 
 	textSize := rl.MeasureTextEx(rl.GetFontDefault(), text, fontSize, float32(FONT_SPACING))

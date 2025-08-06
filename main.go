@@ -104,7 +104,7 @@ func main() {
 
 	defer rl.CloseWindow()
 
-	btn_drop = NewButton("Drop", 750, 50, func() { DropBall() }, GB_1, GB_2)
+	btn_drop = NewButton("Drop", 54, 480, 670, 50, func() { DropBall() }, GB_1, GB_2)
 
 	rl.SetExitKey(rl.KeyQ)
 

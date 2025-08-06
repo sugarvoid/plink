@@ -35,7 +35,7 @@ const (
 	DEBUG               = false
 	SAVE_FILE           = "save.json"
 	GAME_TITLE          = "Plink"
-	SCREEN_WIDTH        = 960
+	SCREEN_WIDTH        = 960 - 225
 	SCREEN_HEIGHT       = 540
 	NUM_ROW             = 4
 	NUM_COL             = 6
@@ -80,7 +80,7 @@ var (
 var (
 	BORDER_RECT_1 = rl.Rectangle{X: 0, Y: 0, Width: SCREEN_WIDTH, Height: 44}
 	BORDER_RECT_2 = rl.Rectangle{X: 0, Y: 0, Width: SCREEN_WIDTH, Height: SCREEN_HEIGHT}
-	BORDER_RECT_3 = rl.Rectangle{X: 0, Y: 40, Width: SCREEN_WIDTH - 300, Height: SCREEN_HEIGHT}
+	BORDER_RECT_3 = rl.Rectangle{X: 0, Y: 40, Width: 660, Height: SCREEN_HEIGHT}
 )
 
 var (

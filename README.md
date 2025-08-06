@@ -2,10 +2,10 @@
 
 Think Plinko, but as an old-school LCD handheld. (Well, that was the idea.)
 
-![screenrec005](https://github.com/user-attachments/assets/cfb6042e-6946-433a-b2d8-afe7c45d6a12)
+![screenrec005](https://github.com/user-attachments/assets/cca30841-a9b4-4d5e-98b1-cd7996c23ae8)
 
 ## Project Goal
-Try out the go bindings for Raylib on a simple project. 
+Try out the go bindings for Raylib. 
 
 ## Project Status
 Done. 
